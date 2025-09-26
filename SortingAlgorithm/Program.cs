@@ -18,6 +18,11 @@ class Program
         Console.WriteLine("선택 정렬 오름차순 : " + string.Join(", ", SelectionSort.AscendingSort(array)));
         Console.WriteLine("선택 정렬 내림차순 : " + string.Join(", ", SelectionSort.DescendingSort(array)));
         
+        // QuickSort
+        Console.WriteLine("퀵 정렬 오름차순 : " + string.Join(", ", QuickSort.AscendingSort(array, 0, array.Length - 1)));
+        Console.WriteLine("퀵 정렬 내림차순 : " + string.Join(", ", QuickSort.DescendingSort(array, 0, array.Length - 1)));
+        
+        
         
         
     }
