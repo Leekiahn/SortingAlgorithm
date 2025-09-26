@@ -22,7 +22,9 @@ class Program
         Console.WriteLine("퀵 정렬 오름차순 : " + string.Join(", ", QuickSort.AscendingSort(array, 0, array.Length - 1)));
         Console.WriteLine("퀵 정렬 내림차순 : " + string.Join(", ", QuickSort.DescendingSort(array, 0, array.Length - 1)));
         
-        
+        // MergeSort
+        Console.WriteLine("병합 정렬 오름차순 : " + string.Join(", ", MergeSort.AscendingSort(array, 0, array.Length - 1)));
+        Console.WriteLine("병합 정렬 내림차순 : " + string.Join(", ", MergeSort.DescendingSort(array, 0, array.Length - 1)));
         
         
     }
