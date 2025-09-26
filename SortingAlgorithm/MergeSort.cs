@@ -18,7 +18,7 @@ public class MergeSort
         return array;
     }
     
-    public static void AscendingMerge(int[] array, int left, int mid, int right)
+    private static void AscendingMerge(int[] array, int left, int mid, int right)
     {
         int leftSize = mid - left + 1; // 왼쪽 부분 배열 크기
         int rightSize = right - mid;    // 오른쪽 부분 배열 크기
@@ -90,7 +90,7 @@ public class MergeSort
         return array;
     }
     
-    public static void DescendingMerge(int[] array, int left, int mid, int right)
+    private static void DescendingMerge(int[] array, int left, int mid, int right)
     {
         int leftSize = mid - left + 1; // 왼쪽 부분 배열 크기
         int rightSize = right - mid;    // 오른쪽 부분 배열 크기
