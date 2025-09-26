@@ -1,0 +1,15 @@
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\bin\Debug\net9.0\SortingAlgorithm.exe
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\bin\Debug\net9.0\SortingAlgorithm.deps.json
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\bin\Debug\net9.0\SortingAlgorithm.runtimeconfig.json
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\bin\Debug\net9.0\SortingAlgorithm.dll
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\bin\Debug\net9.0\SortingAlgorithm.pdb
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\net9.0\SortingAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\net9.0\SortingAlgorithm.AssemblyInfoInputs.cache
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\net9.0\SortingAlgorithm.AssemblyInfo.cs
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\net9.0\SortingAlgorithm.csproj.CoreCompileInputs.cache
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\net9.0\SortingAlgorithm.sourcelink.json
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\net9.0\SortingAlgorithm.dll
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\net9.0\refint\SortingAlgorithm.dll
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\net9.0\SortingAlgorithm.pdb
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\net9.0\SortingAlgorithm.genruntimeconfig.cache
+D:\Phikozz\Projects\Sorting Algorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\net9.0\ref\SortingAlgorithm.dll
