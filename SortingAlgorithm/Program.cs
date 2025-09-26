@@ -1,31 +1,59 @@
-﻿namespace SortingAlgorithm;
+﻿using System.Diagnostics;
+namespace SortingAlgorithm;
 
 class Program
 {
     static void Main(string[] args)
     {
-        int[] array = { 64, 34, 25, 12, 22, 11, 90 };
-        
+        // 10,000개의 랜덤 값으로 배열 생성
+        int n = 10000;
+        Random rand = new Random();
+        int[] baseArray = new int[n];
+        for (int i = 0; i < n; i++)
+            baseArray[i] = rand.Next(0, 100000);
+
+        Stopwatch stopwatch = new Stopwatch();
+
         // BubbleSort
-        Console.WriteLine("버블 정렬 오름차순 : " +string.Join(", ", BubbleSort.AscendingSort(array)));
-        Console.WriteLine("버블 정렬 내림차순 : " + string.Join(", ", BubbleSort.DescendingSort(array)));
-        
+        int[] array = (int[])baseArray.Clone();
+        stopwatch.Restart();
+        BubbleSort.AscendingSort(array);
+        stopwatch.Stop();
+        Console.WriteLine($"버블 정렬 소요 시간: {stopwatch.ElapsedMilliseconds} ms");
+
         // InsertionSort
-        Console.WriteLine("삽입 정렬 오름차순 : " + string.Join(", ", InsertionSort.AscendingSort(array)));
-        Console.WriteLine("삽입 정렬 내림차순 : " + string.Join(", ", InsertionSort.DescendingSort(array)));
-        
+        array = (int[])baseArray.Clone();
+        stopwatch.Restart();
+        InsertionSort.AscendingSort(array);
+        stopwatch.Stop();
+        Console.WriteLine($"삽입 정렬 소요 시간: {stopwatch.ElapsedMilliseconds} ms");
+
         // SelectionSort
-        Console.WriteLine("선택 정렬 오름차순 : " + string.Join(", ", SelectionSort.AscendingSort(array)));
-        Console.WriteLine("선택 정렬 내림차순 : " + string.Join(", ", SelectionSort.DescendingSort(array)));
-        
+        array = (int[])baseArray.Clone();
+        stopwatch.Restart();
+        SelectionSort.AscendingSort(array);
+        stopwatch.Stop();
+        Console.WriteLine($"선택 정렬 소요 시간: {stopwatch.ElapsedMilliseconds} ms");
+
         // QuickSort
-        Console.WriteLine("퀵 정렬 오름차순 : " + string.Join(", ", QuickSort.AscendingSort(array, 0, array.Length - 1)));
-        Console.WriteLine("퀵 정렬 내림차순 : " + string.Join(", ", QuickSort.DescendingSort(array, 0, array.Length - 1)));
-        
+        array = (int[])baseArray.Clone();
+        stopwatch.Restart();
+        QuickSort.AscendingSort(array, 0, array.Length - 1);
+        stopwatch.Stop();
+        Console.WriteLine($"퀵 정렬 소요 시간: {stopwatch.ElapsedMilliseconds} ms");
+
         // MergeSort
-        Console.WriteLine("병합 정렬 오름차순 : " + string.Join(", ", MergeSort.AscendingSort(array, 0, array.Length - 1)));
-        Console.WriteLine("병합 정렬 내림차순 : " + string.Join(", ", MergeSort.DescendingSort(array, 0, array.Length - 1)));
-        
-        
+        array = (int[])baseArray.Clone();
+        stopwatch.Restart();
+        MergeSort.AscendingSort(array, 0, array.Length - 1);
+        stopwatch.Stop();
+        Console.WriteLine($"병합 정렬 소요 시간: {stopwatch.ElapsedMilliseconds} ms");
+
+        // HeapSort
+        array = (int[])baseArray.Clone();
+        stopwatch.Restart();
+        HeapSort.AscendingSort(array);
+        stopwatch.Stop();
+        Console.WriteLine($"힙 정렬 소요 시간: {stopwatch.ElapsedMilliseconds} ms");
     }
 }
