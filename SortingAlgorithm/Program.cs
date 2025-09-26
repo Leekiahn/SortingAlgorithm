@@ -14,6 +14,10 @@ class Program
         Console.WriteLine("삽입 정렬 오름차순 : " + string.Join(", ", InsertionSort.AscendingSort(array)));
         Console.WriteLine("삽입 정렬 내림차순 : " + string.Join(", ", InsertionSort.DescendingSort(array)));
         
+        // SelectionSort
+        Console.WriteLine("선택 정렬 오름차순 : " + string.Join(", ", SelectionSort.AscendingSort(array)));
+        Console.WriteLine("선택 정렬 내림차순 : " + string.Join(", ", SelectionSort.DescendingSort(array)));
+        
         
         
     }
