@@ -16,9 +16,7 @@ public class BubbleSort
                 if(array[j] > array[j + 1]) // 인접한 두 요소 비교
                 {
                     // 요소 교환
-                    int temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
+                    SwapUtil.Swap(ref array[j], ref array[j + 1]);
                 }
             }
         }
@@ -38,9 +36,7 @@ public class BubbleSort
                 if(array[j] < array[j + 1]) // 인접한 두 요소 비교
                 {
                     // 요소 교환
-                    int temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
+                    SwapUtil.Swap(ref array[j], ref array[j + 1]);
                 }
             }
         }

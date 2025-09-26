@@ -15,9 +15,7 @@ public class SelectionSort
                 }
             }
             // 최소값과 현재 위치의 값 교환
-            int temp = array[i];
-            array[i] = array[minIndex];
-            array[minIndex] = temp;
+            SwapUtil.Swap(ref array[i], ref array[minIndex]);
         }
         return array;
     }
@@ -35,9 +33,7 @@ public class SelectionSort
                 }
             }
             // 최대값과 현재 위치의 값 교환
-            int temp = array[i];
-            array[i] = array[maxIndex];
-            array[maxIndex] = temp;
+            SwapUtil.Swap(ref array[i], ref array[maxIndex]);
         }
         return array;
     }
