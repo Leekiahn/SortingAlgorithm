@@ -6,6 +6,15 @@ class Program
     {
         int[] array = { 64, 34, 25, 12, 22, 11, 90 };
         
-        Console.WriteLine(string.Join(", ", BubbleSort.Sort(array)));
+        // BubbleSort
+        Console.WriteLine("버블 정렬 오름차순 : " +string.Join(", ", BubbleSort.AscendingSort(array)));
+        Console.WriteLine("버블 정렬 내림차순 : " + string.Join(", ", BubbleSort.DescendingSort(array)));
+        
+        // InsertionSort
+        Console.WriteLine("삽입 정렬 오름차순 : " + string.Join(", ", InsertionSort.AscendingSort(array)));
+        Console.WriteLine("삽입 정렬 내림차순 : " + string.Join(", ", InsertionSort.DescendingSort(array)));
+        
+        
+        
     }
 }
