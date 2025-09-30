@@ -27,6 +27,6 @@
 
 ├── HeapSort.cs
 
-├── SwapUtil.cs
+├── SwapUtil.cs // Swap용 유틸
 
 └── Program.cs // 실행 예제
