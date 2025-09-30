@@ -13,20 +13,15 @@
 
 ## 파일 구조
 
-/SortingAlgorithms
+/SortingAlgorithms  
+├── BubbleSort.cs  
+├── InsertionSort.cs  
+├── SelectionSort.cs  
+├── QuickSort.cs  
+├── MergeSort.cs  
+├── HeapSort.cs  
+├── SwapUtil.cs // Swap용 유틸  
+└── Program.cs // 실행 예제  
 
-├── BubbleSort.cs
 
-├── InsertionSort.cs
 
-├── SelectionSort.cs
-
-├── QuickSort.cs
-
-├── MergeSort.cs
-
-├── HeapSort.cs
-
-├── SwapUtil.cs // Swap용 유틸
-
-└── Program.cs // 실행 예제
