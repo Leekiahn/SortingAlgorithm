@@ -13,8 +13,8 @@
 
 ## 파일 구조
 
-/SortingAlgorithms
-├── BubbleSort.cs
+/SortingAlgorithms 
+├── BubbleSort.cs 
 ├── InsertionSort.cs
 ├── SelectionSort.cs
 ├── QuickSort.cs
